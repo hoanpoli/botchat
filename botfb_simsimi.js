@@ -92,12 +92,14 @@ login({
                             SimsimiAnswered = text.respSentence;
                             if (message.body === text.respSentence) {
                                 return;
-                            } else
+                            } else {
                                 SimsimiAnswered = text.respSentence;
+                            }
                             api.markAsRead(message.threadID);
                             console.log("Answered:" + SimsimiAnswered);
                         }
                     });
             }
         });
+
     })

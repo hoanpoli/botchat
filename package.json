@@ -2,7 +2,7 @@
     "name": "botchat",
     "version": "1.0.0",
     "description": "",
-    "main": "node .\botfb_simsimi.js",
+    "main": "node botfb_simsimi.js",
     "dependencies": {
         "express": "^4.16.4",
         "facebook-chat-api": "^1.6.0",

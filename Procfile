@@ -1,1 +1,1 @@
-web : node .\botfb_simsimi.js
+web : node botfb_simsimi.js
